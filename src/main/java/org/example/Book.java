@@ -1,12 +1,12 @@
 package org.example;
 
-public class Books {
+public class Book {
     String title;
     String author;
     int id;
     String description;
 
-    public Books(String title, String author, int id, String description) {
+    public Book(String title, String author, int id, String description) {
         this.title = title;
         this.author = author;
         this.id = id;
